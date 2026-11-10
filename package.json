@@ -1,0 +1,8 @@
+{
+  "name": "clinica-veterinaria-poo",
+  "version": "1.0.0",
+  "description": "Sistema simples de gerenciamento de clinica veterinaria usando POO e TypeScript",
+  "main": "dist/index.js",
+  "scripts": {"build": "tsc", "start": "node dist/index.js", "dev": "ts-node src/index.ts"},
+  "devDependencies": {"@types/node": "^22.0.0", "ts-node": "^10.9.2", "typescript": "^5.7.0"}
+}
